@@ -1,0 +1,163 @@
+{
+    "contracts": {
+        "/home/surfacing8671/Documents/ReflectionVault/interfaces/IMigrator.sol": {
+            "IMigrator": {
+                "abi": [
+                    {
+                        "inputs": [
+                            {
+                                "internalType": "uint256",
+                                "name": "",
+                                "type": "uint256"
+                            }
+                        ],
+                        "name": "migrate",
+                        "outputs": [],
+                        "stateMutability": "nonpayable",
+                        "type": "function"
+                    }
+                ],
+                "devdoc": {
+                    "kind": "dev",
+                    "methods": {},
+                    "version": 1
+                },
+                "evm": {
+                    "bytecode": {
+                        "generatedSources": [],
+                        "linkReferences": {},
+                        "object": "",
+                        "opcodes": "",
+                        "sourceMap": ""
+                    },
+                    "deployedBytecode": {
+                        "generatedSources": [],
+                        "immutableReferences": {},
+                        "linkReferences": {},
+                        "object": "",
+                        "opcodes": "",
+                        "sourceMap": ""
+                    },
+                    "gasEstimates": null,
+                    "methodIdentifiers": {
+                        "migrate(uint256)": "454b0608"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"migrate\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/surfacing8671/Documents/ReflectionVault/interfaces/IMigrator.sol\":\"IMigrator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/surfacing8671/Documents/ReflectionVault/interfaces/IMigrator.sol\":{\"keccak256\":\"0xe77928f5c65cf0ff2eea72e43cf423454b6b7938edd292a3a1764b5749da7bdd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://399157293e21c466fb7b0b016304f33b213945b8c373ad12de6c0f2fb9c5e5ae\",\"dweb:/ipfs/QmWqwFn9vwahGcA9gH1VzH8fu4N3Gd8xgMmdLbeErbtpXc\"]}},\"version\":1}",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "userdoc": {
+                    "kind": "user",
+                    "methods": {},
+                    "version": 1
+                }
+            }
+        }
+    },
+    "sources": {
+        "/home/surfacing8671/Documents/ReflectionVault/interfaces/IMigrator.sol": {
+            "ast": {
+                "absolutePath": "/home/surfacing8671/Documents/ReflectionVault/interfaces/IMigrator.sol",
+                "exportedSymbols": {
+                    "IMigrator": [
+                        7
+                    ]
+                },
+                "id": 8,
+                "license": "MIT",
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.8",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "33:23:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "interface",
+                        "fullyImplemented": false,
+                        "id": 7,
+                        "linearizedBaseContracts": [
+                            7
+                        ],
+                        "name": "IMigrator",
+                        "nameLocation": "68:9:0",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "functionSelector": "454b0608",
+                                "id": 6,
+                                "implemented": false,
+                                "kind": "function",
+                                "modifiers": [],
+                                "name": "migrate",
+                                "nameLocation": "93:7:0",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 4,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [
+                                        {
+                                            "constant": false,
+                                            "id": 3,
+                                            "mutability": "mutable",
+                                            "name": "",
+                                            "nameLocation": "-1:-1:-1",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 6,
+                                            "src": "101:4:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "default",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            },
+                                            "typeName": {
+                                                "id": 2,
+                                                "name": "uint",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "101:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "src": "100:6:0"
+                                },
+                                "returnParameters": {
+                                    "id": 5,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "115:0:0"
+                                },
+                                "scope": 7,
+                                "src": "84:32:0",
+                                "stateMutability": "nonpayable",
+                                "virtual": false,
+                                "visibility": "external"
+                            }
+                        ],
+                        "scope": 8,
+                        "src": "58:90:0",
+                        "usedErrors": []
+                    }
+                ],
+                "src": "33:115:0"
+            },
+            "id": 0
+        }
+    }
+}
